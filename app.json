@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "AlohaPoke",
+    "slug": "AlohaPoke",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/poke.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./img/poke.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/poke.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/poke.png"
+    }
+  }
+}
